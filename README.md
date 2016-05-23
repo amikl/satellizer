@@ -1,3 +1,6 @@
+PATCHED version - does not call to server after popup is closed (Oauth)
+
+
 ![Project Logo](https://lh6.googleusercontent.com/-YmfKZZLZKL0/U-KVPFSbiOI/AAAAAAAAEZA/maoYT8iJCnA/w1089-h513-no/sshot-1.png)
 
 # [Satellizer](https://github.com/sahat/satellizer/)
