@@ -1,7 +1,7 @@
 {
   "name": "satellizer",
   "main": "satellizer.js",
-  "homepage": "https://github.com/sahat/satellizer",
+  "homepage": "https://github.com/amikl/satellizer",
   "ignore": [
     ".gitignore",
     ".jshintrc",
