@@ -1,5 +1,13 @@
 PATCHED version - does not call to server after popup is closed (Oauth)
 
+New provider option: noServer: true
+
+
+
+
+
+
+
 
 ![Project Logo](https://lh6.googleusercontent.com/-YmfKZZLZKL0/U-KVPFSbiOI/AAAAAAAAEZA/maoYT8iJCnA/w1089-h513-no/sshot-1.png)
 
@@ -10,7 +18,7 @@ PATCHED version - does not call to server after popup is closed (Oauth)
 [![Test Coverage](http://img.shields.io/codeclimate/coverage/github/sahat/satellizer.svg?style=flat)](https://codeclimate.com/github/sahat/satellizer)
 [![Version](https://img.shields.io/badge/version-0.14.0-brightgreen.svg)](https://www.npmjs.org/package/satellizer)
 
-**Live Demo:** [https://satellizer.herokuapp.com](https://satellizer.herokuapp.com)
+
 
 ---
 
