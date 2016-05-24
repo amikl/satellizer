@@ -41,7 +41,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           scopeDelimiter: ',',
           display: 'popup',
           oauthType: '2.0',
-          popupOptions: { width: 580, height: 400 }
+          popupOptions: { width: 580, height: 400 },
+          noServer: true
         },
         google: {
           name: 'google',
@@ -59,7 +60,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           state: function() {
             var rand = Math.random().toString(36).substr(2);
             return encodeURIComponent(rand);
-          }
+          },
+          noServer: true
         },
         github: {
           name: 'github',
@@ -70,7 +72,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           scope: ['user:email'],
           scopeDelimiter: ' ',
           oauthType: '2.0',
-          popupOptions: { width: 1020, height: 618 }
+          popupOptions: { width: 1020, height: 618 },
+          noServer: true
         },
         instagram: {
           name: 'instagram',
@@ -80,7 +83,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           requiredUrlParams: ['scope'],
           scope: ['basic'],
           scopeDelimiter: '+',
-          oauthType: '2.0'
+          oauthType: '2.0',
+          noServer: true
         },
         linkedin: {
           name: 'linkedin',
@@ -92,7 +96,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           scopeDelimiter: ' ',
           state: 'STATE',
           oauthType: '2.0',
-          popupOptions: { width: 527, height: 582 }
+          popupOptions: { width: 527, height: 582 },
+          noServer: true
         },
         twitter: {
           name: 'twitter',
@@ -100,7 +105,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           authorizationEndpoint: 'https://api.twitter.com/oauth/authenticate',
           redirectUri: window.location.origin,
           oauthType: '1.0',
-          popupOptions: { width: 495, height: 645 }
+          popupOptions: { width: 495, height: 645 },
+          noServer: true
         },
         twitch: {
           name: 'twitch',
@@ -112,7 +118,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           scopeDelimiter: ' ',
           display: 'popup',
           oauthType: '2.0',
-          popupOptions: { width: 500, height: 560 }
+          popupOptions: { width: 500, height: 560 },
+          noServer: true
         },
         live: {
           name: 'live',
@@ -124,7 +131,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           scopeDelimiter: ' ',
           display: 'popup',
           oauthType: '2.0',
-          popupOptions: { width: 500, height: 560 }
+          popupOptions: { width: 500, height: 560 },
+          noServer: true
         },
         yahoo: {
           name: 'yahoo',
@@ -134,7 +142,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           scope: [],
           scopeDelimiter: ',',
           oauthType: '2.0',
-          popupOptions: { width: 559, height: 519 }
+          popupOptions: { width: 559, height: 519 },
+          noServer: true
         },
         bitbucket: {
           name: 'bitbucket',
@@ -145,7 +154,8 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           scope: ['email'],
           scopeDelimiter: ' ',
           oauthType: '2.0',
-          popupOptions: { width: 1028, height: 529 }
+          popupOptions: { width: 1028, height: 529 },
+          noServer: true
         }
       }
     })
