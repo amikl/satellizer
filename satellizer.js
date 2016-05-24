@@ -539,9 +539,11 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
                     );
                   }
 
-                  //defer.resolve(Oauth2.exchangeForToken(oauthData, userData));
-                  defer.resolve(oauthData.code, oauthData, userData);
-                  
+                  if(defaults.noServer){
+                    defer.resolve(oauthData.code, oauthData, userData); 
+                  } else {
+                    defer.resolve(Oauth2.exchangeForToken(oauthData, userData));
+                  }
                 }, function (err) {
                   defer.reject(err);
                 });
